@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128e2119-12e5-42f5-9c77-8b06a3f7a7f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/openzeppelin-contracts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSCEngine.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/chainlink-brownie-contracts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/DeployDSC.s.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/HelperConfig.s.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mocks/MockFailedMintDSC.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mocks/MockFailedTransfer.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mocks/MockFailedTransferFrom.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mocks/MockMoreDebtDSC.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mocks/MockV3Aggregator.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/DSCEngineTest.t.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foundry.toml" beforeDir="false" afterPath="$PROJECT_DIR$/foundry.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecentralizedStableCoin.sol" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecentralizedStableCoin.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openzeppelin-contracts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openzeppelin-contracts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSCEngine.sol" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSCEngine.sol" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +42,11 @@
     <property name="last_opened_file_path" value="/Applications/MAMP/htdocs/connextar" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/script" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -56,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696236522933</updated>
-      <workItem from="1696236524839" duration="9225000" />
+      <workItem from="1696236524839" duration="18562000" />
     </task>
     <servers />
   </component>
